@@ -17,5 +17,8 @@
 <p>Courses: ${student.courses}</p>
 <p>Gender: ${student.gender}</p>
 <p>Type: ${student.type}</p>
+<p>Address: ${student.address}</p>
+<p>Address Street: ${student.address.street}</p>
+<p>Address City: ${student.address.city}</p>
 </body>
 </html>

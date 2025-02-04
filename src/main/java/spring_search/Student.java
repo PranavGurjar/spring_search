@@ -12,7 +12,7 @@ public class Student {
 	private List<String> courses;
 	private String gender;
 	private String type;
-	
+	private Address address;
 	
 	public String getName() {
 		return name;
@@ -50,13 +50,17 @@ public class Student {
 	public void setType(String type) {
 		this.type = type;
 	}
-	
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", id=" + id + ", dob=" + dob + ", courses=" + courses + ", gender=" + gender
-				+ ", type=" + type + "]";
+				+ ", type=" + type + ", address=" + address + "]";
 	}
-	
 	
 }
