@@ -18,6 +18,10 @@ public class FileUploadController {
 	
 	@RequestMapping("/uform")
 	public String uform() {
+		
+		//throw Null Pointer Exception
+		String str = null;
+		System.out.println(str.charAt(0));
 		return "fileform";
 	}
 	

@@ -18,6 +18,9 @@
 	<img alt="my image" src="<c:url value='/resources/images/prm.jpeg'/>">
 	
 		<div class="container">
+		
+			<h1 class="text-center m-4">This is my home page</h1>
+			
 			<div class="card mx-auto mt-5 bg-secondary" style="width : 50%;">
 				<div class="card-body py-5">
 				
