@@ -32,7 +32,7 @@
 							<form:errors path="student.*" />
 						</div>
 
-						<form action="handleform" method=>
+						<form action="handleform" method="post">
 
 							<div class="form-group">
 								<label for="exampleInputEmail">Your Name</label> <input

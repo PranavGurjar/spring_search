@@ -14,7 +14,7 @@ public class FormController {
 		return "complex_form";
 	}
 	
-	@RequestMapping(path="/handleform", method=RequestMethod.GET)
+	@RequestMapping(path="/handleform", method=RequestMethod.POST)
 	public String handleForm(@ModelAttribute("student") Student student,BindingResult result) {
 		
 		if(result.hasErrors()) {

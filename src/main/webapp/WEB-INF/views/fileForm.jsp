@@ -16,6 +16,13 @@
     
     <div class="container p-5">
     	<h1>Upload Image</h1>	
+    	<form action="uploadimage" method="post" enctype="multipart/form-data">
+  			<div class="form-group">
+    			<label for="exampleFormControlFile1">Select your image</label>
+    			<input type="file" name="profile" class="form-control-file" id="exampleFormControlFile1">
+  			</div>
+  			<button class="btn btn-outline-success">Upload</button>
+		</form>
     </div>
 
 
